@@ -44,7 +44,7 @@ pipeline {
           }
         }
         stage('package the code'){
-//use of when statement
+//use of when statement fvv
             when{ expression {env.GIT_BRANCH == 'origin/master'}}
             steps{
                 echo "package the code"
